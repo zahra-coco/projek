@@ -1,0 +1,166 @@
+<!doctype html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Peduli Lingkungan Sekitar</title>
+    <link rel="stylesheet" href="beranda.css" />
+  </head>
+  <body>
+    <div class="sticky-wrapper">
+      <header class="navbar">
+        <div class="logo-area">
+          <img src="img/logo.png" class="logo" alt="Logo" />
+        </div>
+
+        <nav class="nav-wrapper">
+          <ul class="nav-menu">
+            <li class="nav-item active"><a href="index.html">Beranda</a></li>
+            <li class="nav-item"><a href="projek.html">Projek</a></li>
+            <li class="nav-item"><a href="blog.html">Blog</a></li>
+            <span class="nav-indicator"></span>
+          </ul>
+
+          <a href="green-galery.html" class="btn-gallery">Green Gallery</a>
+        </nav>
+      </header>
+
+      <div class="tagline-wrapper">
+        <div class="tagline-left">
+          Bumi bukan warisan, tapi titipan. Yuk jaga bareng!
+        </div>
+        <div class="tagline-right"></div>
+      </div>
+    </div>
+
+    <!-- HERO -->
+    <section class="hero">
+      <div class="hero-content">
+        <h1>Aksi Kecil Hari Ini,<br />Selamatkan Bumi Esok Hari</h1>
+        <p>Mulai dari langkah sederhana untuk masa depan yang lebih hijau</p>
+        <a href="#aksi-kecil" id="btnMulaiAksi" class="btn-aksi">Mulai Aksi</a>
+      </div>
+    </section>
+
+    <section class="waste-section">
+      <div class="waste-title">Masalah Sampah Nasional</div>
+
+      <div class="waste-grid">
+        <div class="waste-item item-1">
+          <div class="waste-overlay"></div>
+          <div class="waste-content">
+            <h3>64 Juta Ton/Tahun</h3>
+            <p>Sampah dihasilkan di Indonesia dan terus meningkat.</p>
+          </div>
+        </div>
+
+        <div class="waste-item item-2">
+          <div class="waste-overlay"></div>
+          <div class="waste-content">
+            <h3>Plastik Sulit Terurai</h3>
+            <p>Butuh ratusan tahun dan mencemari lingkungan.</p>
+          </div>
+        </div>
+
+        <div class="waste-item item-3">
+          <div class="waste-overlay"></div>
+          <div class="waste-content">
+            <h3>Dampak Nyata</h3>
+            <p>Banjir, polusi, dan kerusakan ekosistem.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="why-care">
+      <h2>Peduli Itu Penting, Tapi Kenapa?</h2>
+
+      <div class="why-item reveal left">
+        <div class="why-image img-plastik"></div>
+        <div class="why-text">
+          <h3>Sampah Plastik</h3>
+          <p>
+            Jujur aja, laut dan lingkungan kita sekarang lagi nggak baik-baik
+            aja gara-gara sampah plastik sekali pakai. Plastik itu susah banget
+            hancur, bisa ratusan tahun, dan bikin ekosistem laut kacau.
+            <br /><br />
+            Yang lebih serem, plastik bisa berubah jadi mikroplastik, masuk ke
+            rantai makanan, dan ujung-ujungnya masuk ke tubuh kita sendiri.
+          </p>
+        </div>
+      </div>
+
+      <div class="why-item reveal right">
+        <div class="why-image img-hutan"></div>
+        <div class="why-text">
+          <h3>Hutan Menipis</h3>
+          <p>
+            Hutan itu bukan cuma kumpulan pohon doang, tapi rumah buat banyak
+            makhluk hidup. Sayangnya, gara-gara penebangan liar dan alih fungsi
+            lahan, hutan makin hari makin tipis.
+            <br /><br />
+            Dampaknya bukan cuma ke alam, tapi balik lagi ke manusia.
+          </p>
+        </div>
+      </div>
+
+      <div class="why-item reveal left">
+        <div class="why-image img-iklim"></div>
+        <div class="why-text">
+          <h3>Perubahan Iklim</h3>
+          <p>
+            Perubahan iklim itu bukan cerita nanti, tapi sudah terjadi sekarang.
+            Cuaca makin ekstrem, panas meningkat, banjir dan kekeringan datang
+            silih berganti.
+            <br /><br />
+            Kalau kita masih diam, kualitas hidup manusia akan ikut turun.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- TARGET SCROLL -->
+    <section class="aksi" id="aksi-kecil">
+      <h2>Aksi Kecil Yang Dapat Kamu Lakukan</h2>
+
+      <div class="aksi-list">
+        <div class="aksi-card">
+          <img src="img/recycle.png" alt="Recycle" />
+          <p>Bawa tas belanja dan botol minum sendiri</p>
+          <button type="button" onclick="toggleDone(this)">
+            Saya Sudah Melakukan
+          </button>
+        </div>
+
+        <div class="aksi-card">
+          <img src="img/sepeda.png" alt="Sepeda" />
+          <p>Gunakan sepeda atau jalan kaki</p>
+          <button type="button" onclick="toggleDone(this)">
+            Saya Sudah Melakukan
+          </button>
+        </div>
+
+        <div class="aksi-card">
+          <img src="img/tanaman_tumbuh.png" alt="Tanam Pohon" />
+          <p>Satu pohon berarti satu harapan</p>
+          <button type="button" onclick="toggleDone(this)">
+            Saya Sudah Melakukan
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <!-- CTA -->
+    <section class="cta">
+      <h2>Mulai Hari Ini <span>#AksiKecilUntukBumi</span></h2>
+      <p>
+        Perubahan besar selalu dimulai dari langkah kecil.<br />
+        Yuk jadi generasi yang nggak cuma peduli, tapi juga aksi.
+      </p>
+      <a href="projek.html" class="btn-join"> Ayo Bergabung</a>
+    </section>
+
+    <footer>Copyright © 2026 Tim SMKN 1 Nglegok | All Rights Reserved</footer>
+  </body>
+  <script src="beranda.js"></script>
+</html>
